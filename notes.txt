@@ -1,0 +1,22 @@
+
+Flex -box:
+
+This property is used to set the length of flexible items. The positioning of child elements and the main container is easy with this CSS property. It is used to set how a flex-item will shrink or grow to fit in the space. The flex property can be specified by one, two, or three values.
+Display : properties arrange the elements on the document/web page
+In order to  arrange the elements, display flex can be applied to the parent element/container
+Display: flex(parent element)
+flex-direction: row(default),column, column-reverse, row-reverse
+align-items: flex-start. flex-end, flex-center
+
+Grid:
+
+Grid is a two way dimensional layout model,use of this compeletly changes the UI interface as compared to any other layout model .Grid is one of the most powerful css modules ever introduced.
+display: grid
+grid-template-column:(100px 100px 100px)(1fr 1fr 1fr)
+grid-template-row:(100px 100px 100px)(1fr 1fr 1fr)
+grid-template-columns: repeat(2,2fr)
+grid-column-gap:10px;
+grid-row-gap:
+grid- gap: row column;
+grid-auto-columns: minmax(50px,auto)
+grid-auto-rows: minmax(50px,auto)
